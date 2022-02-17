@@ -1,0 +1,23 @@
+
+.li {
+    list-style: none;
+    
+    .summary {
+        background: linear-gradient(90deg, #fff 60%, #7DC242 250%);
+        color: #666;
+        
+
+        .title {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    }
+}
+.container {
+    width: 25rem; 
+    display: grid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem; 
+    margin: 0 auto;
+}
